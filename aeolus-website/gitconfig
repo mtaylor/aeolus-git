@@ -1,0 +1,16 @@
+[core]
+  repositoryformatversion = 0
+  filemode = true
+  bare = false
+  logallrefupdates = true
+[remote "origin"]
+  fetch = +refs/heads/*:refs/remotes/origin/*
+  url = git@github.com/aeolusproject/aeolus-website.git
+[sendemail]
+  to = aeolus-devel@fedorahosted.org
+[format]
+  subjectprefix = PATCH aeolus-website
+[branch "master"]
+  remote = origin
+[push]
+  default = tracking

@@ -1,0 +1,17 @@
+[core]
+  repositoryformatversion = 0
+  filemode = true
+  bare = false
+  logallrefupdates = true
+[remote "origin"]
+  fetch = +refs/heads/*:refs/remotes/origin/*
+  url = git@github.com:aeolusproject/aeolus-image-rubygem.git
+[sendemail]
+  to = aeolus-devel@fedorahosted.org
+[format]
+  subjectprefix = PATCH aeolus-image-rubygem
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[push]
+  default = tracking
